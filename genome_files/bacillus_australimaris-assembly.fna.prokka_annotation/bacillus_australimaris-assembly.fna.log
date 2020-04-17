@@ -1,0 +1,131 @@
+[18:27:47] This is prokka 1.14.6
+[18:27:47] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[18:27:47] Homepage is https://github.com/tseemann/prokka
+[18:27:47] Local time is Thu Apr 16 18:27:47 2020
+[18:27:47] You are basukafle
+[18:27:47] Operating system is darwin
+[18:27:47] You have BioPerl 1.007002
+[18:27:48] System has 2 cores.
+[18:27:48] Option --cpu asked for 8 cores, but system only has 2
+[18:27:48] Will use maximum of 2 cores.
+[18:27:48] Annotating as >>> Bacteria <<<
+[18:27:48] Generating locus_tag from 'bacillus_australimaris-assembly.fna' contents.
+[18:27:48] Setting --locustag FHOFBOCF from MD5 f18fb8cfd94c079f190fc6b6c2cdf730
+[18:27:48] Creating new output folder: bacillus_australimaris-assembly.fna.prokka_annotation
+[18:27:48] Running: mkdir -p bacillus_australimaris\-assembly\.fna\.prokka_annotation
+[18:27:48] Using filename prefix: bacillus_australimaris-assembly.fna.XXX
+[18:27:48] Setting HMMER_NCPU=1
+[18:27:48] Writing log to: bacillus_australimaris-assembly.fna.prokka_annotation/bacillus_australimaris-assembly.fna.log
+[18:27:48] Command: /Users/basukafle/opt/anaconda3/bin/prokka bacillus_australimaris-assembly.fna --outdir bacillus_australimaris-assembly.fna.prokka_annotation --prefix bacillus_australimaris-assembly.fna
+[18:27:48] Appending to PATH: /Users/basukafle/opt/anaconda3/bin
+[18:27:48] Looking for 'aragorn' - found /Users/basukafle/opt/anaconda3/bin/aragorn
+[18:27:48] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[18:27:48] Looking for 'barrnap' - found /Users/basukafle/opt/anaconda3/bin/barrnap
+[18:27:48] Determined barrnap version is 000009 from 'barrnap 0.9'
+[18:27:48] Looking for 'blastp' - found /Users/basukafle/opt/anaconda3/bin/blastp
+[18:27:48] Determined blastp version is 002009 from 'blastp: 2.9.0+'
+[18:27:48] Looking for 'cmpress' - found /Users/basukafle/opt/anaconda3/bin/cmpress
+[18:27:48] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[18:27:48] Looking for 'cmscan' - found /Users/basukafle/opt/anaconda3/bin/cmscan
+[18:27:48] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[18:27:48] Looking for 'egrep' - found /usr/bin/egrep
+[18:27:48] Looking for 'find' - found /usr/bin/find
+[18:27:48] Looking for 'grep' - found /usr/bin/grep
+[18:27:48] Looking for 'hmmpress' - found /Users/basukafle/opt/anaconda3/bin/hmmpress
+[18:27:48] Determined hmmpress version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[18:27:48] Looking for 'hmmscan' - found /Users/basukafle/opt/anaconda3/bin/hmmscan
+[18:27:48] Determined hmmscan version is 003003 from '# HMMER 3.3 (Nov 2019); http://hmmer.org/'
+[18:27:48] Looking for 'java' - found /Users/basukafle/opt/anaconda3/bin/java
+[18:27:48] Looking for 'makeblastdb' - found /Users/basukafle/opt/anaconda3/bin/makeblastdb
+[18:27:49] Determined makeblastdb version is 002009 from 'makeblastdb: 2.9.0+'
+[18:27:49] Looking for 'minced' - found /Users/basukafle/opt/anaconda3/bin/minced
+[18:27:49] Determined minced version is 004002 from 'minced 0.4.2'
+[18:27:49] Looking for 'parallel' - found /Users/basukafle/opt/anaconda3/bin/parallel
+[18:27:49] Determined parallel version is 20200322 from 'GNU parallel 20200322'
+[18:27:49] Looking for 'prodigal' - found /Users/basukafle/opt/anaconda3/bin/prodigal
+[18:27:49] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[18:27:49] Looking for 'prokka-genbank_to_fasta_db' - found /Users/basukafle/opt/anaconda3/bin/prokka-genbank_to_fasta_db
+[18:27:49] Looking for 'sed' - found /usr/bin/sed
+[18:27:49] Looking for 'tbl2asn' - found /Users/basukafle/opt/anaconda3/bin/tbl2asn
+[18:27:49] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[18:27:49] Using genetic code table 11.
+[18:27:49] Loading and checking input file: bacillus_australimaris-assembly.fna
+[18:27:49] Wrote 31 contigs totalling 3649005 bp.
+[18:27:49] Predicting tRNAs and tmRNAs
+[18:27:49] Running: aragorn -l -gc11  -w bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.fna
+[18:27:51] 1 tRNA-Gln [361980,362052] 34 (ttg)
+[18:27:51] 2 tRNA-Arg c[618887,618962] 36 (tct)
+[18:27:51] 3 tRNA-Glu c[860817,860890] 35 (ttc)
+[18:27:51] 4 tRNA-Ser c[860899,860989] 35 (gct)
+[18:27:51] 5 tRNA-Asn c[860993,861067] 33 (gtt)
+[18:27:51] 6 tRNA-Ile c[861074,861150] 35 (gat)
+[18:27:51] 7 tRNA-Gly c[861168,861241] 33 (tcc)
+[18:27:51] 8 tRNA-His c[861253,861328] 34 (gtg)
+[18:27:51] 9 tRNA-Phe c[861355,861428] 34 (gaa)
+[18:27:51] 10 tRNA-Asp c[861447,861523] 35 (gtc)
+[18:27:51] 11 tRNA-Met c[861528,861604] 35 (cat)
+[18:27:51] 1 tRNA-Glu c[20056,20127] 34 (ttc)
+[18:27:51] 2 tRNA-Met c[20151,20228] 36 (cat)
+[18:27:51] 1 tRNA-Asp c[38495,38571] 35 (gtc)
+[18:27:51] 2 tRNA-Met c[38620,38696] 35 (cat)
+[18:27:51] 1 tRNA-Leu [73,156] 34 (gag)
+[18:27:51] 1 tRNA-Ala [8368,8440] 34 (ggc)
+[18:27:51] 2 tmRNA c[266964,267324] 87,134 GKTKSFNQNLALAA**
+[18:27:51] 3 tRNA-Arg c[342401,342479] 36 (ccg)
+[18:27:51] 1 tRNA-Thr [28,100] 34 (ggt)
+[18:27:51] 1 tRNA-Val [774,849] 34 (tac)
+[18:27:51] 2 tRNA-Thr [883,958] 34 (tgt)
+[18:27:51] 1 tRNA-Phe c[417077,417150] 34 (gaa)
+[18:27:51] 2 tRNA-Asp c[417178,417254] 35 (gtc)
+[18:27:51] 3 tRNA-Glu c[417335,417408] 35 (ttc)
+[18:27:51] 4 tRNA-Lys c[417414,417489] 34 (ttt)
+[18:27:51] 1 tRNA-Trp [36,109] 33 (cca)
+[18:27:51] 2 tRNA-His [139,214] 34 (gtg)
+[18:27:51] 3 tRNA-Gln [223,296] 34 (ttg)
+[18:27:51] 4 tRNA-Gly [303,377] 33 (gcc)
+[18:27:51] 5 tRNA-Cys [383,453] 33 (gca)
+[18:27:51] 6 tRNA-Leu [467,555] 35 (taa)
+[18:27:51] 7 tRNA-Leu [591,675] 36 (caa)
+[18:27:51] 8 tRNA-Gly [19867,19940] 33 (tcc)
+[18:27:51] 9 tRNA-Val [286987,287059] 34 (gac)
+[18:27:51] 10 tRNA-Val [293005,293078] 35 (gac)
+[18:27:51] 1 tRNA-Lys c[35,110] 34 (ttt)
+[18:27:51] 2 tRNA-Gln c[142,216] 33 (ttg)
+[18:27:51] 3 tRNA-Glu c[236,309] 35 (ttc)
+[18:27:51] 4 tRNA-Ser c[318,408] 35 (gct)
+[18:27:51] 5 tRNA-Asn c[413,487] 33 (gtt)
+[18:27:51] Found 41 tRNAs
+[18:27:51] Predicting Ribosomal RNAs
+[18:27:51] Running Barrnap with 2 threads
+[18:27:52] 1 NZ_LGYN01000017.1 51 23S ribosomal RNA (partial)
+[18:27:52] 2 NZ_LGYN01000018.1 4 16S ribosomal RNA (partial)
+[18:27:52] 3 NZ_LGYN01000021.1 2 23S ribosomal RNA (partial)
+[18:27:52] Found 3 rRNAs
+[18:27:52] Skipping ncRNA search, enable with --rfam if desired.
+[18:27:52] Total of 43 tRNA + rRNA features
+[18:27:52] Searching for CRISPR repeats
+[18:27:53] CRISPR1 NZ_LGYN01000030.1 113351 with 5 spacers
+[18:27:53] CRISPR2 NZ_LGYN01000030.1 114465 with 6 spacers
+[18:27:53] CRISPR3 NZ_LGYN01000030.1 123659 with 6 spacers
+[18:27:53] Found 3 CRISPRs
+[18:27:53] Predicting coding sequences
+[18:27:53] Contigs total 3649005 bp, so using single mode
+[18:27:53] Running: prodigal -i bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.fna -c -m -g 11 -p single -f sco -q
+[18:28:00] Found 3667 CDS
+[18:28:00] Connecting features back to sequences
+[18:28:00] Not using genus-specific database. Try --usegenus to enable it.
+[18:28:00] Annotating CDS, please be patient.
+[18:28:00] Will use 2 CPUs for similarity searching.
+[18:28:01] There are still 3667 unannotated CDS left (started with 3667)
+[18:28:01] Will use blast to search against /Users/basukafle/opt/anaconda3/db/kingdom/Bacteria/IS with 2 CPUs
+[18:28:01] Running: cat bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.IS\.tmp\.8604\.faa | parallel --gnu --plain -j 2 --block 273299 --recstart '>' --pipe blastp -query - -db /Users/basukafle/opt/anaconda3/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.IS\.tmp\.8604\.blast 2> /dev/null
+[18:28:35] Deleting unwanted file: bacillus_australimaris-assembly.fna.prokka_annotation/bacillus_australimaris-assembly.fna.IS.tmp.8604.faa
+[18:28:35] Deleting unwanted file: bacillus_australimaris-assembly.fna.prokka_annotation/bacillus_australimaris-assembly.fna.IS.tmp.8604.blast
+[18:28:36] There are still 3663 unannotated CDS left (started with 3667)
+[18:28:36] Will use blast to search against /Users/basukafle/opt/anaconda3/db/kingdom/Bacteria/AMR with 2 CPUs
+[18:28:36] Running: cat bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.AMR\.tmp\.8604\.faa | parallel --gnu --plain -j 2 --block 273136 --recstart '>' --pipe blastp -query - -db /Users/basukafle/opt/anaconda3/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.AMR\.tmp\.8604\.blast 2> /dev/null
+[18:29:07] Deleting unwanted file: bacillus_australimaris-assembly.fna.prokka_annotation/bacillus_australimaris-assembly.fna.AMR.tmp.8604.faa
+[18:29:07] Deleting unwanted file: bacillus_australimaris-assembly.fna.prokka_annotation/bacillus_australimaris-assembly.fna.AMR.tmp.8604.blast
+[18:29:08] There are still 3663 unannotated CDS left (started with 3667)
+[18:29:08] Will use blast to search against /Users/basukafle/opt/anaconda3/db/kingdom/Bacteria/sprot with 2 CPUs
+[18:29:08] Running: cat bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.sprot\.tmp\.8604\.faa | parallel --gnu --plain -j 2 --block 273136 --recstart '>' --pipe blastp -query - -db /Users/basukafle/opt/anaconda3/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > bacillus_australimaris\-assembly\.fna\.prokka_annotation\/bacillus_australimaris\-assembly\.fna\.sprot\.tmp\.8604\.blast 2> /dev/null
